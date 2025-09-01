@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+  position: absolute;
+  top: 100px;
+  left: 336px;
+
+}
+
+.btn_container{
+    /* position: absolute; 
+  top: 100px; 
+  left: 336px;  */
+  width: 768px; 
+  height: 72px; 
+  border: 1px solid whitesmoke;
+  /* background: #FFFFFFFF; */
+  border-radius: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_container input{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 625.703125px; 
+  height: 40px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  /* font-family: Inter;  */
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 6px; 
+  border-width: 1px; 
+  border-color: #DEE1E6FF; /* neutral-300 */
+  border-style: solid; 
+  outline: none; 
+}
+
+.btn_container button{
+     position: absolute;
+    top: 16px;
+    left: 657px;
+    position: absolute; 
+  top: 16px; 
+  left: 657px; 
+  width: 94.296875px; 
+  height: 40px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  /* font-family: Inter;  */
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 500; 
+  color: #FFFFFFFF; /* white */
+  background: #009991FF; 
+  opacity: 1; 
+  border: none; 
+  border-radius: 6px; 
+}
+
+h1{
+    position: absolute;
+    top: 182px;
+    left: 620px; 
+    /* text-align: center; */
+}
+
+/* .task_container{
+    position: absolute;
+    top: 230px;
+    left: 336px;
+    width: 768px; 
+  height: 50px; 
+  border: 1px solid whitesmoke;
+  background: #FFFFFFFF; 
+  border-radius: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+
+
+
+.edit_btn , .delete_btn{
+    margin-top: 10px;
+    background-color:white;
+    color:rgb(91, 95, 103);
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    border: none;
+}
+
+
+ .input_field{
+ height: 40px;
+ width: 625px;
+ line-height: 45px;
+  }
+ 
